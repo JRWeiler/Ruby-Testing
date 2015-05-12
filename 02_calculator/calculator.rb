@@ -30,6 +30,19 @@ def power(first, second)
   return first ** second
 end
 
+def factorial(num)
+  if num == 0
+    return 0
+  else
+    total = 1
+    while num > 0
+      total *= num
+      num -= 1
+    end
+    return total
+  end
+end
+
   
 
   
